@@ -54,7 +54,7 @@ WARNING!!! WARNING!!!
     // Look up these methods on Mozilla Developer Network web site if needed.  
     // var firstLetter =
     
-    var firstLetter = name.charAt(0);
+    var firstLetter = names[name].charAt(0);
     firstLetter = firstLetter.toLowerCase();
   
     // STEP 12:
@@ -65,10 +65,10 @@ WARNING!!! WARNING!!!
     
     if (firstLetter === "j") {
       // byeSpeaker.xxxx
-      byeSpeaker.speak(name);
+      byeSpeaker.speak(names[name]);
     } else {
       // helloSpeaker.xxxx
-      helloSpeaker.speak(name);
+      helloSpeaker.speak(names[name]);
     }
   }
 
