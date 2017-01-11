@@ -31,4 +31,4 @@
   
   window.byeSpeaker = byeSpeaker;
   
-}();
+})();
