@@ -9,8 +9,7 @@
   // var helloSpeaker =
 
   var helloSpeaker = {
-    greeting: "Hello",
-    goodbye: "Good Bye"
+    greeting: "Hello"
   };
   
   // DO NOT attach the speakWord variable to the 'helloSpeaker' object.
