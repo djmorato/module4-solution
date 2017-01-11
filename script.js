@@ -65,10 +65,10 @@ WARNING!!! WARNING!!!
     
     if (firstLetter === "j") {
       // byeSpeaker.xxxx
-      byeSpeaker.name();
+      byeSpeaker.speak(name);
     } else {
       // helloSpeaker.xxxx
-      helloSpeaker.name();
+      helloSpeaker.speak(name);
     }
   }
 
