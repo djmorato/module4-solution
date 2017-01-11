@@ -43,7 +43,7 @@ WARNING!!! WARNING!!!
   // using the 'speak' method or either helloSpeaker's or byeSpeaker's
   // 'speak' method.
   // See Lecture 50, part 1
-  for (name in names) {
+  for (var name in names) {
 
     // STEP 11:  
     // Retrieve the first letter of the current name in the loop.  
